@@ -1,8 +1,9 @@
-```c:main.c
-#include<stdio.h>
-int main()
-{
-    printf("Hello world.");
-    return 0;
+```java:Main.java
+package main;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world.");
+    }
 }
 ```
