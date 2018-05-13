@@ -4,8 +4,18 @@ package main;
  * メイン処理クラス
  */
 public class Main {
+
+    /**
+     * 出力文字列: "Hello world."
+     */
+    private static final String HELLO = "Hello world.";
+
+    /**
+     * Mainメソッド
+     * @param args
+     */
     public static void main(String[] args) {
         // Hello world.を出力
-        System.out.println("Hello world.");
+        System.out.println(Main.HELLO);
     }
 }
